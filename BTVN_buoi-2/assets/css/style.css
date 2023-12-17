@@ -1,0 +1,36 @@
+*{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+h1 {
+    padding: 8px ;
+    border: 1px solid #333;
+    margin-top: 1px;
+    width: 620px;
+    margin-left: 2px;
+   
+}
+
+#main {
+    border: 2px solid #acaaaa;
+    width: 630px;
+    height: 585px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    text-align: center;
+    padding: 1px;
+}
+
+th,tr,td{
+    border: 1px solid #333;
+    padding: 4px;
+}
+.gender{
+    margin-left: -100px;
+}
+
+table{
+    margin-top: -15px;
+}
