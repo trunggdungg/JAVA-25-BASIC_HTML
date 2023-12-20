@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 900px;
+}
+
+.wrap {
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap .heading-card {
+    height: 80px;
+    /* background-color: #ccc; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-avatar {
+    height: 80px;
+    width: 80px;
+}
+
+.wrap-avatar .avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.avatar span {
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 16px;
+
+}
+
+.heading-card.icon-3 {
+    width: 50px;
+    height: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.heading-card p {
+    width: 220px;
+    margin-left: 5px;
+}
+
+.heading-card p span {
+    color: #9a9090;
+   
+}
+
+.icon-3 .ti-menu-alt {
+    float: right;
+    font-size: 20px;
+    margin-right: -80px;
+}
+
+.icon-3 .ti-menu-alt:hover{
+    cursor: pointer;
+    color: #9a9090;
+}
+
+.img-card img{
+    width: 100%;
+    
+}
+.img-card:hover{
+    
+    cursor: pointer;
+    opacity: 0.6;
+}
+.img-card{
+    height: 260px;
+}
+
+.content-card{
+    height: 100px;
+    padding: 16px;
+    color: #9a9090;
+    line-height: 1.5;
+}
+
+
+.icon-card{
+    height: 50px;
+    
+}
+.icon-card .icon{
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    bottom: -15px;
+}
+
+.icon-card .icon:hover{
+   cursor: pointer;
+   color: #9a9090;
+}
+.icon-card .ti-angle-down{
+    float: right;
+    /* position: absolute; */
+    margin-right: 10px;
+   
+}
+.ti-heart{
+    position: absolute;
+    left: 20px;
+
+}
+
+.ti-sharethis{
+    position: absolute;
+    left: 70px;
+}
