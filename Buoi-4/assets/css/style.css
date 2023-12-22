@@ -1,0 +1,68 @@
+/* reset browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 500px;
+    background-color: pink;
+    margin: auto;
+    /* margin:auto chỉ đc khi pt đó có độ rộng nhất định */
+
+    display: flex;
+    /* mặc định nằm trên 1 hàng */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* justify-content: theo chiều ngang */
+
+    /* align-items: center; */
+    /* flex-start:là thuộc tính mặc định */
+
+    /* align-content: căn hàng theo chiều dọc; */
+
+}
+
+
+.container .box1 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: #fff;
+    font-size: 30px;
+    order: 2;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+}
+
+.container .box2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: #fff;
+    font-size: 30px;
+    order: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+}
+
+.container .box3 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: #fff;
+    font-size: 30px;
+    order: 4;
+}
+
+.container .box4 {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    color: #fff;
+    font-size: 30px;
+    order: 3;
+}
