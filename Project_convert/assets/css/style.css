@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* thành phần dùng chung */
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+
+    /* background-color: pink; */
+
+}
+
+/* header */
+.header {
+    width: 100%;
+
+
+    background-color: #515154;
+}
+
+.wrap-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    /* width: 25%; */
+    /* background-color: blue; */
+}
+
+
+.header-left a {
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.header-left a img {
+    max-width: 173px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+
+
+.header-center {
+    /* width: 50%; */
+
+    /* height: 64px; */
+    /* background-color: green; */
+}
+
+.header-center .menu-main {
+    display: flex;
+    align-items: center;
+    height: 64px;
+
+}
+
+.header-center .menu-main li {
+    list-style: none;
+    /* height: 64px; */
+    /* line-height: 64px; */
+    padding: 23px 0;
+
+}
+
+.header-center .menu-main li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #d2d2d7;
+    font-size: 15px;
+}
+
+.header-center .menu-main li:hover {
+    background-color: #626265;
+    cursor: pointer;
+
+}
+
+.header-center .menu-main li:hover a {
+
+    color: #fff;
+}
+
+
+.header-right {
+    /* width: 25%;
+    
+    height: 64px;
+    background-color: orange; */
+}
+
+.header-right .icon-user {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    justify-content: flex-end;
+}
+
+.icon-user li {
+    list-style: none;
+    position: relative;
+}
+
+.icon-user li a {
+    color: #d2d2d7;
+    padding-left: 15px;
+}
+
+.icon-user li a i {
+   font-size: 20px;
+}
+
+.icon-user li span{
+    position: absolute;
+    bottom: 0;
+    right: -6px    ;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
