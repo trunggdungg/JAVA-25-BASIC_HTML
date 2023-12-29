@@ -130,3 +130,36 @@
     justify-content: center;
     align-items: center;
 }
+
+
+/* banner */
+
+.banner-main .owl-carousel{
+    position: relative;
+}
+
+.banner-main .owl-nav{
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.banner-main .owl-dots{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.owl-nav .owl-prev{
+    width: 50px;
+    height: 50px;
+    background-color: #515154;
+    border-radius: 50%;
+}
