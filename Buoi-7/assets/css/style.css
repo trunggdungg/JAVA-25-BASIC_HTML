@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    transition: width 2s;
+}
+
+.box1:hover {
+    width: 400px;
+    /* height: 600px; */
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+
+    transition: width 2s, height 3s;
+
+    background-color: blue;
+}
+
+.box2:hover {
+    width: 400px;
+    height: 400px;
+}
+
+/* timing function */
+
+.timing-function div {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: orange;
+    font-size: 50px;
+    color: #fff;
+
+    transition: width 5s;
+}
+
+.timing-function .box3 {
+    transition-timing-function: ease-out;
+}
+
+.timing-function .box4 {
+    transition-timing-function: ease;
+}
+
+.timing-function .box5 {
+    transition-timing-function: ease-in;
+}
+
+
+.box3:hover {
+    width: 400px;
+    /* height: 400px; */
+}
+
+.box4:hover {
+    width: 400px;
+    /* height: 400px; */
+}
+
+.box5:hover {
+    width: 400px;
+    /* height: 400px; */
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+
+    transition: width 4s;
+    transition-delay: 3s;
+}
+
+.box6:hover {
+    width: 600px;
+    /* height: 400px; */
+}
