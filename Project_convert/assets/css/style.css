@@ -68,6 +68,7 @@
     /* line-height: 64px; */
     padding: 23px 0;
 
+    position: relative;
 }
 
 .header-center .menu-main li a {
@@ -75,6 +76,11 @@
     padding: 0 20px;
     color: #d2d2d7;
     font-size: 15px;
+}
+
+.header-center .menu-main li a i {
+    font-size: 13px;
+    margin-left: 3px;
 }
 
 .header-center .menu-main li:hover {
@@ -114,13 +120,13 @@
 }
 
 .icon-user li a i {
-   font-size: 20px;
+    font-size: 20px;
 }
 
-.icon-user li span{
+.icon-user li span {
     position: absolute;
     bottom: 0;
-    right: -6px    ;
+    right: -6px;
     width: 15px;
     height: 15px;
     background-color: #fff;
@@ -134,32 +140,110 @@
 
 /* banner */
 
-.banner-main .owl-carousel{
+.banner-main .owl-carousel {
     position: relative;
 }
 
-.banner-main .owl-nav{
+.banner-main .owl-nav {
     /* background-color: red; */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.banner-main .owl-dots{
+.banner-main .owl-dots {
     position: absolute;
     top: 95%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
 }
 
-.owl-nav .owl-prev{
+.owl-nav .owl-prev {
     width: 50px;
     height: 50px;
     background-color: #515154;
     border-radius: 50%;
+}
+
+
+/* sub-menu */
+
+.sub-menu-c1 {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    z-index: 999;
+    display: none;
+}
+
+.header-center ul li:hover .sub-menu-c1{
+    display: block;
+}
+
+.header-center ul li:hover .sub-menu-c1 li a {
+    color: #111;
+}
+
+.header-center .sub-menu-c1 li a {
+    color: #111;
+}
+
+.header-center ul li .sub-menu-c1 li:hover a {
+    color: #fff;
+}
+
+/* sub-menu-c2 */
+.header-center .sub-menu-c1 li{
+    position: relative;
+}
+
+.header-center ul .sub-menu-c1 li:hover li a{
+    color: #111;
+}
+
+.sub-menu-c2{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 250px;
+    display: none;
+    background-color: #fff;
+}
+
+.header-center .sub-menu-c1 li:hover .sub-menu-c2{
+    display: block;
+}
+
+.header-center .sub-menu-c1 .sub-menu-c2 li:hover a{
+    color: #fff;
+}
+
+/* code phia tren -> desktop, tivi,may chieu,... */
+/* responsive-tablet */
+@media screen and (max-width:1163px) {
+    .header-center{
+        display: none;
+    }
+
+    .wrap-header{
+        position: relative;
+    }
+
+    .header-left{
+        
+    }
+}
+@media screen and (max-width:768px) {
+    
+}
+/* responsive-mobile */
+@media screen and (max-width:410px) {
+    
 }

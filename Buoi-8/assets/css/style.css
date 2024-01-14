@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* xay dung layout cua animation */
+
+.loading {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid green;
+    margin: auto;
+    margin-top: 100px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transform: rotate(0deg);
+
+    /* su dung animation */
+
+    animation: spinner 2s infinite linear;
+
+}
+
+.loading-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid pink;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    transform: rotate(0deg);
+
+    animation: spinner 2s infinite linear  alternate-reverse;
+
+
+}
+
+.loading-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transform: rotate(0deg);
+
+    animation: spinner-2 2s infinite linear;
+
+
+}
+
+.loading-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transform: rotate(0deg);
+
+    animation: spinner-2 2s infinite linear reverse   ;
+
+
+}
+
+/* khai bao animation */
+/* from:tu dau
+to: toi dau */
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner-2 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes{
+    0%{
+
+    }
+
+    100%{
+
+    }
+}
